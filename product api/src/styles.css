@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(132deg, rgb(65, 80, 95) 0%, rgb(36, 37, 38) 100%);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Header {
+  display: flex;
+  background: linear-gradient(
+    132deg,
+    rgb(34, 181, 254) 0%,
+    rgb(255, 186, 214) 100%
+  );
+  color: white;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+h1 {
+  float: left;
+}
+
+.Outlet {
+  width: 100%;
+  display: flex;
+  gap: 4rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  /* margin-left: 50px; */
+  /* margin-right: 50px; */
+  margin-bottom: 50px;
+}
+
+.footer {
+  display: flex;
+  background: linear-gradient(
+    132deg,
+    rgb(113, 143, 175) 0%,
+    rgb(69, 92, 114) 100%
+  );
+  color: white;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.td {
+  float: left;
+  padding-right: 20px;
+}
+.tr {
+  float: left;
+}
+.main {
+  display: flex;
+  /* width: 80%; */
+  flex: 3;
+  justify-content: flex-end;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  font-size: 20px;
+}
+.logo {
+  display: flex;
+  width: 50%;
+  flex: 1;
+}
+
+img {
+  width: 200px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.addtodata {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  background: linear-gradient(
+    132deg,
+    rgb(115, 93, 142) 0%,
+    rgb(58, 33, 86) 100%
+  );
+  width: 50%;
+  padding: 50px;
+  border-radius: 20px;
+}
+.addtodata > input {
+  display: flex;
+  justify-content: flex-end;
+}
+.card {
+  background: linear-gradient(
+    360deg,
+    rgb(251, 251, 255) 0%,
+    rgb(215, 223, 252) 100%
+  );
+  padding: 50px;
+  border-radius: 20px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10%;
+}
+
+.Green {
+  border: 1px solid green;
+  color: white;
+  background-color: green;
+}
+.Green:hover {
+  background-color: white;
+  color: green;
+}
+
+.red {
+  border: 1px solid #ff1a1a;
+  font-weight: 4px;
+  color: white;
+  background-color: #ff1a1a;
+}
+.red:hover {
+  background-color: white;
+  font-weight: 4px;
+  color: #ff1a1a;
+}
+
+.btn {
+  padding: 10px 7px;
+  font-weight: 4px;
+  border-radius: 10%;
+  border: 1px solid #3366ff;
+  color: white;
+  background-color: #3366ff;
+}
+.btn:hover {
+  background-color: white;
+  color: #3366ff;
+  font-weight: 4px;
+}
+
+.ProductImg {
+  width: 100%;
+  justify-content: center;
+}
+.ProductImg img {
+  width: 100%;
+  height: 90%;
+}
+.home_main {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 2rem;
+  /* justify-content: space-around; */
+  width: 70%;
+  height: 100vh;
+  background-image: linear-gradient(to right, #141e30, #243b55);
+  border-radius: 20px;
+}
+
+.home_header {
+  display: flex;
+  justify-content: center;
+
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.home_contant {
+  display: flex;
+  text-align: justify;
+  margin: 0px;
+  color: white;
+}
+/* gradient text for modern browsers */
+.addform-container {
+  background-color: aliceblue;
+  height: auto;
+  width: 600px;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 2px 1px 30px -2px rgba(0, 0, 0, 0.67);
+  -webkit-box-shadow: 2px 1px 30px -2px rgba(0, 0, 0, 0.67);
+  -moz-box-shadow: 2px 1px 30px -2px rgba(0, 0, 0, 0.67);
+}
+.addform-container h1 {
+  font-size: 30px;
+  color: black;
+  font-weight: 600;
+}
+.add-button {
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 500;
+}
+.add-button:hover {
+  background-color: rgb(16, 196, 16);
+}
